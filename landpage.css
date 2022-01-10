@@ -1,0 +1,123 @@
+
+
+
+    /* CSS Reset */
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/school.jpg');
+    }
+
+    .logo {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 60px;
+        top: 20px;
+    }
+
+    .logo img {
+        width: 136px;
+        filter: invert(100%);
+    }
+
+    .logo div {
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .navi {
+        display: block;
+        width: 36%;
+        margin: 19px auto;
+        /* border: 2px solid green; */
+    }
+
+    .contact {
+        position: absolute;
+        right: 24px;
+        top: 43px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 24px 7px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(165, 161, 161);
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 400px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+
+    #main-footer {
+         background: floralwhite;
+        color: black;
+        text-align: center;
+        font-size: 40px;
+        padding: 20px;
+        margin-top: 40px;
+        }
